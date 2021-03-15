@@ -9,6 +9,11 @@ This workshop requires basic working knowledge of the Git workflow, specifically
 4. Modify index.html, index.js, and styles.css as desired
 5. Test your local changes by opening index.html using your preferred browser. You can do this by using your machine's file explorer / finder or typing `index.html` into your terminal
 
+## How to modify
+This repository uses Bootstrap UI to build the frontend in `index.html`. Documentation on how to use Bootstrap and other UI elements you can use can be found on their website: https://getbootstrap.com/docs/5.0/getting-started/introduction/. Interactive componetns or animation can be made in `index.js`.
+
+The document is currently styled using the WCS style guide. If you would like to change the colors and fonts, modify `styles.css`. 
+
 ## Publishing your page to the web
 1. Push all of your local changes to the remote server. First, run `git add .` to track changes. Then, run `git commit -m "<INERT DESCRIPTIVE COMMIT MESSAGE>"` to bundle your changes into a commit with a descriptive label. Finally, run `git push` to push your changes to the remote. 
 2. Go to the settings for your fork (on the GitHub website), then scroll to the middle of the page where it says "GitHub Pages." Change the `source` to the `main` branch using the dropdown and press the `save` button. This might already be enabled for you. Your site will be live at `<YOUR USERNAME>.github.io` or `YOURDOMAIN/fabulous-frontend` (depending on what you chose in step 2 of the above) soon!
